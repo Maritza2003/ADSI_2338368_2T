@@ -13,7 +13,7 @@ $vrventa3 = $_GET["venta3"];
 
 $comision = 0.10;
 echo "Comisiones por 3 ventas: ";
-$totalv = $vrventa1 + $vrventa2 + $vrventa3; 
+$totalv = $vrventa1 + $vrventa2 + $vrventa3;
 $totalc = $totalv * $comision;
 echo "$totalc <br>";
 
